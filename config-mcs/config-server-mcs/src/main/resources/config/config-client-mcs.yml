@@ -1,0 +1,3 @@
+app:
+  service:
+    name: cloud-client-mcs-app

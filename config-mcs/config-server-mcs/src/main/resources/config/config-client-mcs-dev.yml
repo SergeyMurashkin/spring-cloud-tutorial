@@ -1,0 +1,6 @@
+server:
+  port: 8112
+
+app:
+  service:
+    name: cloud-client-mcs-app-dev

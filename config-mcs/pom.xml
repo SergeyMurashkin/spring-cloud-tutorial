@@ -9,11 +9,12 @@
 		<version>0.0.1</version>
 	</parent>
 
-	<groupId>ru.murashkin.tutorial.spring.cloud.basic</groupId>
-	<artifactId>basic-mcs</artifactId>
+	<groupId>ru.murashkin.tutorial.spring.cloud.config</groupId>
+	<artifactId>config-mcs</artifactId>
+	<packaging>pom</packaging>
 	<version>0.0.1</version>
-	<name>basic-mcs</name>
-	<description>basic-mcs</description>
+	<name>config-mcs</name>
+	<description>config-mcs</description>
 
 	<dependencies>
 		<dependency>
@@ -26,5 +27,10 @@
 			<scope>test</scope>
 		</dependency>
 	</dependencies>
+
+	<modules>
+		<module>config-server-mcs</module>
+		<module>config-client-mcs</module>
+	</modules>
 
 </project>

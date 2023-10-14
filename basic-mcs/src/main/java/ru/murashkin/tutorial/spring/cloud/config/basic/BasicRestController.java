@@ -1,4 +1,4 @@
-package ru.murashkin.tutorial.spring.cloud.basic;
+package ru.murashkin.tutorial.spring.cloud.config.basic;
 
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;

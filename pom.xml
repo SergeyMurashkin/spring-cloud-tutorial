@@ -23,6 +23,7 @@
 
     <modules>
         <module>basic-mcs</module>
+        <module>config-mcs</module>
     </modules>
 
     <dependencies>
